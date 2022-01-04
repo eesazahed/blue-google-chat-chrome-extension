@@ -1,7 +1,20 @@
 const changeColor = document.getElementById('changeColor');
 let page = document.getElementById("buttonDiv");
 let selectedClassName = "current";
-const presetButtonColors = ["#191970", "#2832C2", "#051094", "#241571", "#1E90FF", "#0000CD"];
+const presetButtonColors = [
+    "#191970",
+    "#2832C2",
+    "#051094",
+    "#241571",
+    "#1E90FF",
+    "#0000CD",
+    "#006400",
+    "#8B0000",
+    "#8B008B",
+    "#663399",
+    "#008080",
+    "#202124",
+];
 
 chrome.storage.sync.get("color", ({ color }) => {
     changeColor.style.backgroundColor = color;
