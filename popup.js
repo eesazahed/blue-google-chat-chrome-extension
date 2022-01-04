@@ -1,6 +1,7 @@
 const changeColor = document.getElementById('changeColor');
 let page = document.getElementById("buttonDiv");
 let selectedClassName = "current";
+
 const presetButtonColors = [
     "#191970",
     "#2832C2",
