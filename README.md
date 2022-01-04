@@ -6,4 +6,4 @@ Instructions:
 - Go chrome://extensions and enable developer mode
 - Click "Load Unpacked"
 - Go to https://chat.google.com (make sure that chat is already on dark mode)
-- To change the colors, go edit content.js and add your own colors.
+- To change the colors, edit content.js and add your own colors.
