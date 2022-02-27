@@ -1,4 +1,4 @@
-# gchat
+# Blue google chat theme chrome extension
 A chrome extension for google chat that changes the background color to blue.
 
 Instructions: 
